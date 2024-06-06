@@ -5,11 +5,11 @@
 
 #E-mail Parameters / Can be Changed
 $status = "Down"
-$company = "JelgCraft"
-$server = "AMS-01"
+$company = "JelgerCraft"
+$server = "AMS-05"
 $time = Get-Date
-$cause = "Power Outage"
-$last_change= "No last Change"
+$cause = "No Network Connection"
+$last_change= "N/A"
 $color = "green"
 
 if ($status -eq "Down"){
